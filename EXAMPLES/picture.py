@@ -21,5 +21,3 @@ cat = Picture(app, image="cat.jpg")
 cat.width = cat.width//20
 cat.height = cat.height//20
 # NEW CODE ENDS
-
-app.display()
