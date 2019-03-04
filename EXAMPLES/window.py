@@ -21,5 +21,3 @@ def close_window():
 open_button = PushButton(app, text="Open", command=open_window)
 close_button = PushButton(window, text="Close", command=close_window)
 # NEW CODE ENDS
-
-app.display()
