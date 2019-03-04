@@ -20,7 +20,7 @@ button_2 = PushButton(app, text="Make it green!", command=background_green)
 def colour_change():
     app.bg = (red.value, 0, 0)
 
-red = Slider(app, end=255, command=colour_change)
+red = Slider(app, start=0, end=255, command=colour_change)
 # NEW CODE ENDS
 
 app.display()
