@@ -22,5 +22,3 @@ def colour_change():
 
 red = Slider(app, start=0, end=255, command=colour_change)
 # NEW CODE ENDS
-
-app.display()
