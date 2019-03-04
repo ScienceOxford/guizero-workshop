@@ -7,5 +7,3 @@ app.width = 500
 app.height = 250
 
 text = Text(app, text="This is my app!", size=20)
-
-app.display()
