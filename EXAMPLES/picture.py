@@ -17,7 +17,7 @@ button_1 = PushButton(app, text="Make it yellow!", command=background_yellow)
 button_2 = PushButton(app, text="Make it green!", command=background_green)
 
 # NEW CODE STARTS
-cat = Picture(app, image="cat.jpg")
-cat.width = cat.width//20
-cat.height = cat.height//20
+cat = Picture(app, image="cat.jpg")             # create a Picture widget called cat, that loads the file 'cat.jpg'
+cat.width = cat.width//20                       # set the width of the Picture to be 20 times smaller than the original image
+cat.height = cat.height//20                     # set the height of the Picture to be 20 times smaller than the original image
 # NEW CODE ENDS

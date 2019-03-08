@@ -13,8 +13,8 @@ def background_green():
     app.bg = "green"
     
 # NEW CODE STARTS
-def clicked():
-    error('Error!', 'You cannnot click here...')
+def clicked():                                                  # create a command called 'clicked'
+    error('Error!', 'You cannnot click here...')                # which creates an error widget with a title and text
 # NEW CODE ENDS
 
 text = Text(app, text="This is my app, including error!", size=20)
@@ -22,5 +22,5 @@ button_1 = PushButton(app, text="Make it yellow!", command=background_yellow)
 button_2 = PushButton(app, text="Make it green!", command=background_green)
 
 # NEW CODE STARTS
-button_3 = PushButton(app, text="Click me!", command=clicked)
+button_3 = PushButton(app, text="Click me!", command=clicked)   # create a new button that uses the new command
 # NEW CODE ENDS
